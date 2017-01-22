@@ -1,0 +1,72 @@
+/* body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+body{color:#333; font-size:12px;font-family:"Microsoft YaHei"}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+input{ font-size:12px;}
+a{ text-decoration:none; color:#000;}
+a:hover{color:#c00; text-decoration:none;} */
+
+main{
+ background: url("../img/lucky/lucky_bg.jpg") no-repeat 0 0;
+ background-size: 100%;
+}
+.lucky{
+  padding:1rem;
+}
+.policy_number{
+  padding:2rem;
+}
+.turn_rule{
+ display: flex;
+ display: -webkit-box;
+ /* display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex; */
+ align-items: center;
+ -webkit-align-items:center;
+ -webkit-box-align: center;
+}
+.turn_rule .left,.turn_rule .right{
+  flex:0.3;
+  -webkit-box-flex:0.3;
+  overflow: hidden;
+}
+.turn_rule .center{
+  flex:0.4;
+  -webkit-box-flex:0.4;
+  overflow: hidden;
+}
+.policy_number_input{
+ -webkit-user-select: text; 
+  text-align:center;
+  padding:1rem;
+  /* -moz-border-radius: 2rem; Firefox
+  -webkit-border-radius: 2rem; Safari 锟斤拷 Chrome
+  border-radius: 2rem; Opera 10.5+, 锟皆硷拷使锟斤拷锟斤拷IE-CSS3锟斤拷IE锟斤拷锟斤拷锟� */
+  font-size: 1.4rem;
+  border: 1px solid #E4E4E4;
+  width: 80%;
+  color:#E0C1BE;
+}
+.btn_lucky{
+	border-width: 0px;
+	/* background-color:#FFEC0D ; */
+	color: #AB442A;
+	/* text-shadow: none;
+	box-shadow: none; */
+	border-style :none;
+	padding:0.7rem;
+	-moz-border-radius: 1.55rem; /* Firefox */
+    -webkit-border-radius: 1.55rem; /* Safari 锟斤拷 Chrome */
+    border-radius:1.55rem; /* Opera 10.5+, 锟皆硷拷使锟斤拷锟斤拷IE-CSS3锟斤拷IE锟斤拷锟斤拷锟� */
+    font-size: 1.6rem;
+    /* border: 1px solid #E4E4E4; */
+    width: 100%;
+}
+
+
+/* 锟斤拷转锟斤拷锟斤拷式 */
+.turnplate_banner{display:block;width:80%;margin-top:15rem;margin-left:auto;margin-right:auto;margin-bottom: 20px;overflow-x: hidden; /* background: rgb(230, 45, 45); */}
+.turnplate_banner .turnplate{display:block;width:100%;position:relative;overflow: hidden;}
+.turnplate_banner .turnplate canvas.item{width:100%;}
+.turnplate_banner .turnplate img.pointer{position:absolute;width:25.5%;height:34.5%;left:37.6%;top:28%;}
